@@ -35,7 +35,7 @@ ul li{
     height: 42px;
 }
 .menu{
-       background-color: #cac9c9;
+       background-color: #EFEFEF;
        padding: 8px 12px;
        border-radius: 5px;
 }
@@ -46,7 +46,7 @@ ul li{
      margin: 0 10px;
 }
 .menu a:hover {
-    background-color: crimson;
+    background-color: #FF284F;
     color: #fff;
     padding: 2px 4px;
     border-radius: 5px;
@@ -75,11 +75,44 @@ ul li{
 .fav{
     margin: 0 5px;
 }
+/* inner-menu */
+.inner{
+    margin-top: 30px;
+}
+.inner-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-menu-bar{
+    background-color: #F4F4F4;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.inner-menu-bar a{
+    color: #000;
+    margin: 0 10px;
+}
+.inner-menu-bar a:first-child{
+    background-color: #ff284f;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.btn{
+    padding: 15px 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    background-color: #FF1B45;
+    border: 0;
+    border-radius: 5px;
+}
+.btn a{
+    color: #fff;
+}
 
 /* all subjects */
 .science-sub{
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 30px;
     padding-bottom: 120px;
 }
 .subjects{
